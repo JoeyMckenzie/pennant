@@ -1,3 +1,7 @@
-**/**/obj
-**/**/bin
+src/**/obj
+src/**/bin
+examples/**/obj
+examples/**/bin
+tests/**/obj
+tests/**/bin
 .idea
