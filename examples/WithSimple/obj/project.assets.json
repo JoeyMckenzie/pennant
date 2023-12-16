@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Pennant/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Pennant.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pennant.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pennant/1.0.0": {
+      "type": "project",
+      "path": "../../src/Pennant/Pennant.csproj",
+      "msbuildProject": "../../src/Pennant/Pennant.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Pennant >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jmckenzie/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jmckenzie/projects/dotnet/Pennant/examples/WithSimple/WithSimple.csproj",
+      "projectName": "WithSimple",
+      "projectPath": "/Users/jmckenzie/projects/dotnet/Pennant/examples/WithSimple/WithSimple.csproj",
+      "packagesPath": "/Users/jmckenzie/.nuget/packages/",
+      "outputPath": "/Users/jmckenzie/projects/dotnet/Pennant/examples/WithSimple/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jmckenzie/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/Pennant.csproj": {
+              "projectPath": "/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/Pennant.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

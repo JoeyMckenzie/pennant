@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD4ACC91-F355-404A-A794-4C5B76DD699E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ADD5B54A-2B4B-4A49-9731-757DBF2C54C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{39C068AF-3DB1-4F8A-A0F2-85CE4916CC32}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Directory.Build.props = Directory.Build.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pennant", "src\Pennant\Pennant.csproj", "{60F834A4-428F-4130-A32B-59897AE687BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pennant.DependencyInjection", "src\Pennant.DependencyInjection\Pennant.DependencyInjection.csproj", "{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{17A71918-C164-48E3-AFA0-9A024200D558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithSimple", "examples\WithSimple\WithSimple.csproj", "{F221946B-5519-4B56-95AD-E84E42621ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithApi", "examples\WithApi\WithApi.csproj", "{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pennant.Tests", "tests\Pennant.Tests\Pennant.Tests.csproj", "{E382512F-19CD-4E40-AC22-CD7FF9A520AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F834A4-428F-4130-A32B-59897AE687BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F834A4-428F-4130-A32B-59897AE687BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F834A4-428F-4130-A32B-59897AE687BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F834A4-428F-4130-A32B-59897AE687BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F221946B-5519-4B56-95AD-E84E42621ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F221946B-5519-4B56-95AD-E84E42621ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F221946B-5519-4B56-95AD-E84E42621ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F221946B-5519-4B56-95AD-E84E42621ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E382512F-19CD-4E40-AC22-CD7FF9A520AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E382512F-19CD-4E40-AC22-CD7FF9A520AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E382512F-19CD-4E40-AC22-CD7FF9A520AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E382512F-19CD-4E40-AC22-CD7FF9A520AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60F834A4-428F-4130-A32B-59897AE687BE} = {DD4ACC91-F355-404A-A794-4C5B76DD699E}
+		{CE8C7EDB-3D8C-4464-8BA0-FC5B82A9B911} = {DD4ACC91-F355-404A-A794-4C5B76DD699E}
+		{F221946B-5519-4B56-95AD-E84E42621ED8} = {17A71918-C164-48E3-AFA0-9A024200D558}
+		{9B097E20-93E0-4E1C-B793-F1AE07FF9F2D} = {17A71918-C164-48E3-AFA0-9A024200D558}
+		{E382512F-19CD-4E40-AC22-CD7FF9A520AD} = {ADD5B54A-2B4B-4A49-9731-757DBF2C54C3}
+	EndGlobalSection
+EndGlobal

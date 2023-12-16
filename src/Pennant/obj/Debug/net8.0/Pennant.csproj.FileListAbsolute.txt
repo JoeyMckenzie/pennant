@@ -1,0 +1,11 @@
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/bin/Debug/net8.0/Pennant.deps.json
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/bin/Debug/net8.0/Pennant.dll
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/bin/Debug/net8.0/Pennant.pdb
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.AssemblyInfoInputs.cache
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.AssemblyInfo.cs
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.csproj.CoreCompileInputs.cache
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.dll
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/refint/Pennant.dll
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/Pennant.pdb
+/Users/jmckenzie/projects/dotnet/Pennant/src/Pennant/obj/Debug/net8.0/ref/Pennant.dll
